@@ -109,6 +109,8 @@ struct audio_effect_config {
 
 #define MAX_MIXER_PATH_LEN 64
 
+#define compress_set_next_track_param(compress, codec_options) (0)
+
 typedef enum card_status_t {
     CARD_STATUS_OFFLINE,
     CARD_STATUS_ONLINE
